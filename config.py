@@ -16,7 +16,7 @@ DB_URL = os.environ.get("DB_URL","mongodb+srv://rename:bot@cluster0.go6qtqs.mong
  
 FLOOD = int(os.environ.get("FLOOD", "10"))
 
-START_PIC = os.environ.get("START_PIC", "https://te.legra.ph/file/a8e6c698a87287a7d9017.jpg")
+START_PIC = os.environ.get("START_PIC", "https://te.legra.ph/file/390208792e429dab23ab3.jpg")
 
 ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '945284066').split()]
 
