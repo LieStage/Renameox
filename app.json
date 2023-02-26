@@ -4,6 +4,7 @@
     "logo": "https://graph.org/file/91ab4b346dddd0652958c.jpg",
     "keywords": ["Renamer Bot", "Mongo DB"],    
     "repository": "https://github.com/LieStage/Renameox",
+    "container": "stack",
     "env": {
         "API_ID": {
             "description": "Your APP ID From my.telegram.org ",
@@ -40,9 +41,16 @@
             "required": false
         }
     },
+    "addons":[],
     "buildpacks": [
         {
             "url": "heroku/python"
         }
-    ]
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
 }
