@@ -6,7 +6,7 @@ API_ID = os.environ.get("API_ID", "4682685")
 
 API_HASH = os.environ.get("API_HASH", "3eba5d471162181b8a3f7f5c0a23c307")
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "5484278199:AAFui1dWdQOo2L9WL8s75RhcYOi0oSJY5CE") 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "5553062054:AAEwtZ2XWJHF42qQc5Bi-5VkO5t2Si3YXc8") 
 
 FORCE_SUB = os.environ.get("FORCE_SUB", "movie_time_botonly") 
 
